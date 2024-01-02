@@ -36,7 +36,7 @@ app.get('/help', (req, res) => {
     res.render('help', {
         title: 'Help',
         name: 'Pranav Bhartiya',
-        helpText: 'You can use this website to determine what the current tempreature is and what tempreature it feels like at any given place in the world. Just enter the name or the zipcode of the desired location to get the weather. If there is a specific city that you want the forecast for, but a different city with the same name shoes up, please specifiy the state to get the desired result!'
+        helpText: 'You can use this website to determine what the current tempreature is, what tempreature it feels like and the humidity percentage at any given place in the world. Just enter the name or the zipcode of the desired location to get the weather. If there is a specific city that you want the forecast for, but a different city with the same name shoes up, please specifiy the state to get the desired result!'
     })
 })
 
